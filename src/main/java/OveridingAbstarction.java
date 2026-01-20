@@ -1,16 +1,14 @@
 abstract class Hotel{
     abstract void eat1();
     abstract void eat2();
-    abstract void eat3();
-    abstract void eat4();
-    abstract void eat();
+//    abstract void eat3();
+//    abstract void eat4();
+//    abstract void eat();
 }
 
 
 abstract class Indianhotel extends Hotel{
-    void eat(){
-        System.out.println("Indian food available");
-    }
+    abstract void eat();
 
      @Override
      void eat1() {
@@ -18,21 +16,9 @@ abstract class Indianhotel extends Hotel{
 
      }
 
-    @Override
-    void eat2() {
-        System.out.println("Indianhotel.eat2");
 
-    }
 
-    @Override
-    void eat3() {
 
-    }
-
-    @Override
-    void eat4() {
-
-    }
 }
   class Japanhotel extends Indianhotel{
     void eat(){
@@ -46,19 +32,15 @@ abstract class Indianhotel extends Hotel{
 
       @Override
       void eat2() {
-          System.out.println("Japanhotel.eat2");
-      }
-
-      @Override
-      void eat3() {
-
-      }
-
-      @Override
-      void eat4() {
 
       }
   }
+  class abcd{
+
+  }
+//  abstract dc extend abcd{
+//
+//}
 
 public class OveridingAbstarction {
     public static void main(String[] args) {
