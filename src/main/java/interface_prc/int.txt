@@ -1,0 +1,26 @@
+//Relation between interface and class
+1) 1 class extends 1 class
+2) 1 class implements multiple interfaces
+3) 1 interface extends multiple interface
+
+4) 1 abstract class implement multiple interface does not need to implement method
+5) but 1 class implement multiple interface it must be implement method
+
+
+**********Initerface***********
+//100 abstraction achieve in interface because only allowed abstract method
+// by default method is abstract
+//only allowed abstarct method
+//by default all variable are "public static final"
+//does not allow any access modifier in interface to method but in java 17 private is allowed
+
+**********abstraction***********************
+//in abstract there are both abstract and non abstract method is allowed that why it
+not achive 100 abstraction
+
+//in abstraction we can use all modifier to the method and variable
+
+
+********diiffrence bitween abstarction and interface********
+
+//in abstaction we can use constructor but in interface it can  not allow costructor
