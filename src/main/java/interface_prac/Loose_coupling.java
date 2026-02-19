@@ -1,5 +1,5 @@
 package interface_prac;
-//banking project
+//banking project practice
 import java.util.Scanner;
 
 interface Payment{
