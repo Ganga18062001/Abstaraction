@@ -1,6 +1,6 @@
 package abstraction_prc;
 //abstraction means hiding the internal implementation and showing essential features/ function
-//in abstarction , both abstarct and not abstract method
+//in abstraction , both abstract and not abstract method
 //By default variable is instance
 //if method is abstract , class should be abstract
 //also wa can not create object of abstract class beacuse inside class abstract method, this method has no implimention
@@ -39,6 +39,7 @@ public class Main {
 
         Scooter v2 = new Scooter();
         v2.start();
+//        v2.No_of_vehicle();
         v2.No_of_vehicle();
 
     }
